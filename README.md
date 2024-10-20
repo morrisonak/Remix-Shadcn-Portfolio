@@ -1,15 +1,6 @@
 # Remix Shadcn Template
 
-Welcome to the **Remix shadcn portfolio**! This project serves as a template for building a profesional portfolio using Remix, shadcn, and other popular technologies.
-
-## Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Customizing with `siteData.ts`](#customizing-with-sitedatat)
+Welcome to the **Remix shadcn portfolio**. This project serves as a template for building a profesional portfolio using Remix, shadcn, and other popular technologies.
 
 ## Features
 
@@ -39,7 +30,7 @@ To get started with this project, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/morrisonak/Remix-Shadcn-Portfolio.git
-   cd  Remix-Shadcn-Engineer-Portfolio
+   cd  Remix-Shadcn-Portfolio
    ```
 2. Install dependencies:
    ```bash
@@ -59,16 +50,11 @@ To get started with this project, follow these steps:
 
 After setting up the project, you can begin building your application. The template includes various pre-configured components and layouts to help you get started quickly.
  
-## Folder Structure
-
-The folder structure is organized as follows:
-
-
 ## Customizing with `siteData.ts`
 
 The template is designed to be easily customized through the `siteData.ts` file. Here are simple instructions to modify the data:
 
-1. **Locate the `siteData.ts` file**: in the `app/data/` directory of the project.
+1. **Locate the `siteData.ts` file** in the `app/data/` directory of the project.
 
 2. **Edit the Data**: Inside `siteData.ts`, you will find various data structures representing different components of the site (e.g., publications, education, testimonials). Each section is clearly labeled.
 
