@@ -1,6 +1,6 @@
 # Remix-Shadcn-Template
 
-Welcome to the **Remix-Shadcn-Template**! This project serves as a template for building modern web applications using Remix, ShadCN UI components, and other popular technologies.
+Welcome to the **Remix shadcn engineer portfolio**! This project serves as a template for building profesional portfolio using Remix, shadcn, and other popular technologies.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the **Remix-Shadcn-Template**! This project serves as a template for 
 ## Features
 
 - Server-side rendering with Remix for optimized performance
-- Responsive design using ShadCN UI components
+- Responsive design using Shadcn/UI
 - Easy-to-use data fetching and routing mechanisms
 - Built-in styling with Tailwind CSS
 - Simple navigation and routing setup
@@ -38,10 +38,9 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/remix-shadcn-template.git
-   cd remix-shadcn-template
+   git clone https://github.com/morrisonak/Remix-Shadcn-Engineer-Portfolio.git
+   cd  Remix-Shadcn-Engineer-Portfolio
    ```
-
 2. Install dependencies:
    ```bash
    npm install
@@ -59,25 +58,17 @@ To get started with this project, follow these steps:
 ## Usage
 
 After setting up the project, you can begin building your application. The template includes various pre-configured components and layouts to help you get started quickly.
-
+ 
 ## Folder Structure
 
 The folder structure is organized as follows:
 
-```
-/app
-  /components   # Reusable UI components
-  /data         # Data files like siteData.ts
-  /routes       # Application routes
-  /styles       # Tailwind CSS configurations
-  ...
-```
 
 ## Customizing with `siteData.ts`
 
 The template is designed to be easily customized through the `siteData.ts` file. Here are simple instructions to modify the data:
 
-1. **Locate the `siteData.ts` file**: This file is typically found in the `app/data/` directory of your project.
+1. **Locate the `siteData.ts` file**: in the `app/data/` directory of the project.
 
 2. **Edit the Data**: Inside `siteData.ts`, you will find various data structures representing different components of the site (e.g., publications, education, testimonials). Each section is clearly labeled.
 
