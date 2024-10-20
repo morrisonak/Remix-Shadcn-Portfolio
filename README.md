@@ -1,6 +1,6 @@
-# Remix-Shadcn-Template
+# Remix Shadcn Template
 
-Welcome to the **Remix shadcn engineer portfolio**! This project serves as a template for building profesional portfolio using Remix, shadcn, and other popular technologies.
+Welcome to the **Remix shadcn portfolio**! This project serves as a template for building a profesional portfolio using Remix, shadcn, and other popular technologies.
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/morrisonak/Remix-Shadcn-Engineer-Portfolio.git
+   git clone https://github.com/morrisonak/Remix-Shadcn-Portfolio.git
    cd  Remix-Shadcn-Engineer-Portfolio
    ```
 2. Install dependencies:
