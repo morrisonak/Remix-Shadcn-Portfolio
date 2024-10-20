@@ -13,9 +13,9 @@ import { json } from "@remix-run/node";
 import { setTheme } from "~/lib/theme.server";
 
 enum Theme {
-  DARK = "dark",
+  //DARK = "dark",
   LIGHT = "light",
-  SYSTEM = "system",
+  // SYSTEM = "system",
 }
 
 export const themes: Array<Theme> = Object.values(Theme);
