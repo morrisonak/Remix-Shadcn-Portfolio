@@ -1,14 +1,16 @@
 import * as cookie from "cookie";
 
 const cookieName = "en_theme";
-type Theme = "light" | "dark";
+type Theme = "light"; //| "dark";
 
 export function getTheme(request: Request): Theme | null {
   const cookieHeader = request.headers.get("cookie");
   const parsed = cookieHeader
     ? cookie.parse(cookieHeader)[cookieName]
     : "light";
-  if (parsed === "light" || parsed === "dark") return parsed;
+  if (parsed === "light")
+    //|| parsed === "dark") quick fix to lock on light mode
+    return parsed;
   return null;
 }
 

@@ -19,7 +19,6 @@ import {
 } from "./lib/client-hints";
 import clsx from "clsx";
 
-
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: styles },
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
@@ -50,9 +49,8 @@ export default function App() {
         <Links />
       </head>
       <body>
-      
         <Outlet />
-      
+
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
